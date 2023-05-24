@@ -1,0 +1,198 @@
+.trademark{
+	position: relative;
+	left: 5px;
+	top: -5px;
+	transition-duration: 0.2s;
+	font-size: .75em;
+}
+.ohhsnap{
+	font-family: "Roboto Slab", serif !important;
+}
+section.hero {
+  position: relative;
+  background-color: black;
+  height: 60vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+section.hero video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+section.hero .container {
+  position: relative;
+  z-index: 2;
+}
+
+section.hero .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+.menu-icons{
+  height: 3em;
+  width: 2em;
+}
+.dropdown-menu-body i {
+  font-size: 1.5em;
+  width: 1.25em;
+
+}
+.bloglistimg{height:250px;object-fit: cover;object-position: top}
+.bloghomeimg{
+  height: 500px;
+  overflow: hidden;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.crt-logo.crt-tag{display: none !important;color: transparent;visibility: hidden !important}
+/* Media Query for devices withi coarse pointers and no hover functionality */
+
+/* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
+
+@media (pointer: coarse) and (hover: none) {
+  section.hero {
+	background: url('/assets/img/backgrounds/girls-having-fun-in-photo-booth.jpg') black no-repeat center center scroll;
+  }
+
+  section.hero video {
+	display: none;
+  }
+}
+ul#results-container {
+  padding: 0;
+  list-style-type: none;
+}
+
+#results-container li {
+  margin-bottom: 1.5rem;
+}
+
+span.post-meta {
+  font-size: 1rem;
+}
+.logout {
+  display: none;
+}
+
+.authenticated .logout {
+  display: block;
+}
+@media only screen and (max-width: 735px)
+.phone {
+    color: #000;
+    pointer-events: auto;
+    text-decoration: none;
+}
+.phone {
+    color: inherit;
+    pointer-events: none;
+    text-decoration: none;
+}
+/* Cal Color Settings */
+.fc .fc-button-primary:not(:disabled):active, .fc .fc-button-primary:not(:disabled).fc-button-active {
+    color: #fff;
+    color: var(--fc-button-text-color, #fff);
+    background-color: #2b3990 !important;
+    background-color: #2b3990 !important;
+    border-color: #2b3990 !important;
+    border-color: #2b3990 !important;
+}
+.fc .fc-button-primary {
+color: #fff;
+color: var(--fc-button-text-color, #fff);
+background-color: #2b3990 !important;
+background-color: #2b3990 !important;
+border-color: #2b3990 !important;
+border-color: #2b3990 !important;
+}
+.fc .fc-daygrid-day.fc-day-today {
+    background-color: rgba(245, 245, 245, 0.911);
+    background-color: #f5f5f5 !important;
+}
+.bottomright {
+  position: absolute;
+ bottom: 1em;
+ right: 1.5em;
+  font-size: 18px;
+}
+.images-cards{
+  height: 75vh;
+  object-fit: cover;
+}
+#menu__toggle {
+  opacity: 0;
+}
+#menu__toggle:checked + .menu__btn > span {
+  transform: rotate(45deg);
+}
+#menu__toggle:checked + .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0deg);
+}
+#menu__toggle:checked + .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+#menu__toggle:checked ~ .menu__box {
+  left: 0 !important;
+}
+.menu__btn {
+  position: relative;
+  width: 26px;
+  height: 26px;
+  top: 10px;
+  cursor: pointer;
+  z-index: 1;
+}
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #2b3990;
+  transition-duration: .25s;
+}
+.menu__btn > span::before {
+  content: '';
+  top: -8px;
+}
+.menu__btn > span::after {
+  content: '';
+  top: 8px;
+}
+.snipcart-modal__container{
+  padding-top: 10em !important;
+}
+.snipcart-button-primary{ background-color: #27aae1 !important;
+  border-radius: 0.5rem 0 0.5rem 0 !important;
+  font-size: .875rem !important;
+  font-family: inherit !!important;
+}
+.snipcart-items-count{
+  position: relative;
+  right: 4px !important;
+  bottom: 10px;
+  font-size: 14px;
+}
